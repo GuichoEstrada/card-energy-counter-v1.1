@@ -56,9 +56,9 @@ export default function RightColumn() {
             <Grid container spacing={2}>
                 <Grid item lg={12} className='access-container'>
                     <h2>to the<br/> MGNM Axie Arena Tracker</h2>
-                    <h6>*Title is subject to change</h6>
+                    
                     <hr/>
-                    <p>Your bones don't break, mine do. That's clear. Your cells react to bacteria and viruses differently than mine. You don't get sick, I do. That's also clear. But for some reason, you and I react the exact same way to water. We swallow it too fast, we choke. We get some in our lungs, we drown. However unreal it may seem, we are connected, you and I. We're on the same curve, just on opposite ends.</p>
+                    <p>Please read this disclaimer carefully before using MGNM Axie Arena Tracker operated by MGNM. We do not, and will not gather or store any information that your browser sends whenever you visit or use our application. The application's sole purpose is to help and guide you in Axie Infinity's Arena mode, nothing else. MGNM and this application is not, by any means, affiliated with Axie Infinity. </p>
                 </Grid>
             </Grid>
         </div>

@@ -61,6 +61,9 @@ p {
 }
 
 .icons-container {
+    a {
+      text-decoration: none;
+    }
     margin: 0 auto;
 
     h3 {
@@ -80,6 +83,7 @@ p {
         line-height: 1.5em;
         letter-spacing: 0.3em;
         margin-top: -30px;
+        color: #fff;
     }
 
     $primary: #a71d31;
@@ -241,3 +245,21 @@ $gray: #9b9b9b;
       background-position: 0;
     }
   }
+
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1400px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+    fieldset {
+      height: 400px;
+
+      .icons-container h3 {
+        margin: 0 0 20px 0;
+      }
+
+      a .fourth {
+        margin: 10px auto;
+        padding: 10px;
+      }
+    }
+}

@@ -11,8 +11,8 @@ const Header = () => {
             <nav id="navbar-primary" className="navbar" role="navigation">
                 <div className="container-fluid">
                     <div className="collapse navbar-collapse" id="navbar-primary-collapse">
-                        <ul className="nav navbar-nav grow">
-                            <li><Link to='/'><img id="logo" src={logo} alt="logo" /></Link></li>
+                        <ul className="nav navbar-nav">
+                            <li><Link to='/'><img className="grow" id="logo" src={logo} alt="logo" /></Link></li>
                         </ul>
                     </div>
                 </div>
