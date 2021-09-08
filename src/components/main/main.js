@@ -285,7 +285,7 @@ const totalEnemyEnergy = playerEnergySum(state) + enemyEnergyGained(state) - ene
                         </TableRow>
 
                     </TableHead>
-                    <TableBody>
+                    <TableBody className='rows-body'>
                         {state.map((row, index) =>
                             <TableEditRow key={'TableEditRow' + index}
                                 row={row}
